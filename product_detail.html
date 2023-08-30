@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--main stylesheet-->
+    <link rel="stylesheet" href="./assets/stylesheet/main_style.css">
+    <!--box-icon-->
+    <link rel="stylesheet" href="./assets/box-icon/css/boxicons.min.css">
+    <!--box-icon script-->
+    <script src="./assets/box-icon/boxicon.min.js"></script>
+    <!--main script-->
+    <script src="./assets/script/main_script.js"></script>
+     <!--Product script-->
+     <script src="./assets/script/product.js"></script>
+    <!--skeleton load-->
+    <link rel="stylesheet" href="./assets/stylesheet/load.css">
+
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Nova+Square&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Soundz</title>
+</head>
+<body>
+    <nav class="cart-navigation prod-nav">
+     <button onclick="window.history.back()"><i class="bx bx-chevron-left"></i></button>
+     <span class="cart-title">Product</span>
+     <button class="whitelist-indicator" onclick="clickWhiteList()"><i class="bx bx-heart"></i></button>
+    </nav>
+
+    <div class="skeleton-container"> 
+        <div class="product-img-container">
+            <div class="image skeleton skeleton-block"></div>
+             <div class="product-details-product">
+                <div class="product-next skeleton skeleton-small-icon"></div>
+                <div class="product-prev skeleton skeleton-small-icon"></div>
+                <div class="pagination skeleton skeleton-text-long"></div>
+             </div>
+         </div>
+         <div class="personal-product-info" id="section">
+            <div class="category-name">
+                <span class="skeleton skeleton-text-short"></span>
+                <span class="skeleton skeleton-text"></span>
+            </div>
+            <div class="rating-price">
+                <span class="skeleton skeleton-text-short"></span>
+                <span class="skeleton skeleton-text-short"></span>
+            </div>
+         </div>
+    
+         <div class="colors">
+            <span class="skeleton skeleton-text-long"></span>
+            <div class="color-radioset">
+              <span class="skeleton skeleton-xsmall-icon"></span>
+              <span class="skeleton skeleton-xsmall-icon"></span>
+              <span class="skeleton skeleton-xsmall-icon"></span>
+              <span class=" skeleton skeleton-xsmall-icon"></span>
+            </div>
+         </div>
+    
+         <div class="quantity-left">
+            <div class="quantity-box skeleton skeleton-text-short">
+            </div>
+            <span class="number-left skeleton skeleton-text-short"></span>
+         </div>
+    
+         <div class="detail-description">
+            <span class="skeleton skeleton-text-short"></span>
+            <p class="actual-detail skeleton skeleton-block"></p>
+         </div>
+    
+         <div class="detail-description">
+            <span class="skeleton skeleton-text-short"></span>
+            <div class="rate-bars skeleton skeleton-block"></div>
+            <div class="review-messages">
+                <div class="personal-review skeleton skeleton-input"></div>
+                <div class="personal-review skeleton skeleton-input"></div>
+            </div>
+    
+            <div class="feedback">
+                <span class="skeleton skeleton-text-short"></span>
+                <div class="star-part">
+                    <span class="skeleton skeleton-text-long"></span>
+                    <div class="skeleton skeleton-text-short"></div>
+                </div>
+                <div class="star-part">
+                    <span class="skeleton skeleton-text-long"></span>
+                    <form action="">
+                        <div class="skeleton skeleton-block"></div>
+                        <div class="submit skeleton skeleton-small-icon"></div>
+                    </form>
+                </div>
+    
+            </div> 
+         </div>
+    </div>
+
+<div class="product-body hide-div"> 
+    <div class="product-img-container">
+        <div class="img-container">
+            <div class="slide">
+                <img class="large-image" src="" alt="product">
+            </div>
+            <div class="slide">
+                <img class="large-image" src="" alt="product">
+            </div>
+            <div class="slide">
+                <img class="large-image" src="" alt="product">
+            </div>
+            <div class="slide">
+                <img class="large-image" src="" alt="product">
+            </div>
+        </div>
+         <div class="product-details-product">
+            <button class="product-next" onclick="handleNextButtonClick()"><i class="bx bx-chevron-right"></i></button>
+            <button class="product-prev" onclick="handlePrevButtonClick()"><i class="bx bx-chevron-left"></i></button>
+            <div class="pagination">
+                <span class="dots active"></span>
+                <span class="dots"></span>
+                <span class="dots"></span>
+                <span class="dots"></span>
+            </div>
+         </div>
+     </div>
+     <div class="personal-product-info" id="section">
+        <div class="category-name">
+            <span id="category">Category</span>
+            <span id="name">Product name</span>
+        </div>
+        <div class="rating-price">
+            <span>
+                <span class="rate-value">4.5</span><i class="bx bxs-star"></i>
+            </span>
+            <span><i class="bx bx-dollar"></i><span class="price">321</span></span>
+        </div>
+     </div>
+
+     <div class="colors">
+        <span>Available colors</span>
+        <div class="color-radioset">
+        <input type="radio" name="color" class="available-color">
+        <input type="radio" name="color" class="available-color">
+        <input type="radio" name="color" checked class="available-color">
+        <input type="radio" name="color" class="available-color">
+    </div>
+     </div>
+
+     <div class="quantity-left">
+        <div class="quantity-box">
+            <span class="reduce" onclick="updateReduce()"><i class="bx bxs-minus-circle"></i></span>
+            <span class="cart-quantity">1</span>
+            <span class="add" onclick="updateAdd()"><i class="bx bxs-plus-circle"></i></span>
+        </div>
+        <span class="number-left"></span>
+     </div>
+
+     <div class="detail-description">
+        <span><i class="bx bx-message-square-detail"></i> Product Detail</span>
+        <p class="actual-detail">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea nihil in veniam eius officia perspiciatis laudantium adipisci quis, quam aut nesciunt est sint, aliquam, voluptatibus non veritatis amet magnam.
+        </p>
+     </div>
+
+     <div class="detail-description">
+        <span><i class="bx bx-user-check"></i> Product Reviews</span>
+        <div class="rate-bars">
+            <div class="rating-details">
+                <div>
+                    <span class="rate-value rate-review">4.5</span>
+                    <span class="rating">
+                        <i class="bx star bx-star"></i>
+                        <i class="bx star bx-star"></i>
+                        <i class="bx star bx-star"></i>
+                        <i class="bx star bx-star"></i>
+                        <i class="bx star bx-star"></i>
+                    </span>
+                </div>
+                <span class="people">247 reviews</span>
+            </div>
+             <div class="bar-container">
+                <span>5</span>
+                <div class="bar"><div class="fill"></div></div>
+             </div>
+             <div class="bar-container">
+                <span>4</span>
+                <div class="bar"><div class="fill"></div></div>
+             </div>
+             <div class="bar-container">
+                <span>3</span>
+                <div class="bar"><div class="fill"></div></div>
+             </div>
+             <div class="bar-container">
+                <span>2</span>
+                <div class="bar"><div class="fill"></div></div>
+             </div>
+             <div class="bar-container">
+                <span>1</span>
+                <div class="bar"><div class="fill"></div></div>
+             </div>
+        </div>
+        <div class="review-messages">
+            <div class="personal-review">
+                <img src="" alt="reviewer" class="reviewer-img">
+                <p class="message">
+                    <span class="reviewer-name"></span>
+                    <span class="reviewer-stars">
+                        <i class="bx bx-star star-rev"></i>
+                        <i class="bx bx-star star-rev"></i>
+                        <i class="bx bx-star star-rev"></i>
+                        <i class="bx bx-star star-rev"></i>
+                        <i class="bx bx-star star-rev"></i>
+                    </span>
+                    <span class="reviewer-message"></span>
+                    <span class="time">3 days ago</span>
+                </p>
+            </div>
+        </div>
+
+        <div class="feedback">
+            <span>Give us feedback</span>
+            <div class="star-part">
+                <span>How good was our product?</span>
+                <div>
+                    <i class="bx bx-star"></i>
+                    <i class="bx bx-star"></i>
+                    <i class="bx bx-star"></i>
+                    <i class="bx bx-star"></i>
+                    <i class="bx bx-star"></i>
+                </div>
+            </div>
+            <div class="star-part">
+                <span>Express your thoughts about product?</span>
+                <form action="">
+                    <textarea name="text" id="text"></textarea>
+                    <button type="submit" class="submit">Submit</button>
+                </form>
+            </div>
+
+        </div>
+        
+     </div>
+
+     <!--button-->
+     <div class="proceed product-proceed">
+        <button class="add-to-cart">Add to cart <i class="bx bxs-cart"></i></button>
+        <button class="buy-button">Buy</button>
+     </div>
+</div>
+
+</body>
+</html>

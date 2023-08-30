@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--main stylesheet-->
+    <link rel="stylesheet" href="./assets/stylesheet/main_style.css">
+    <!--box-icon-->
+    <link rel="stylesheet" href="./assets/box-icon/css/boxicons.min.css">
+    <!--box-icon script-->
+    <script src="./assets/box-icon/boxicon.min.js"></script>
+    <!--main script-->
+    <script src="./assets/script/main_script.js"></script>
+    <!--index script-->
+    <script src="./assets/script/index.js"></script>
+    <!--animation-->
+    <link rel="stylesheet" href="./assets/animation/animtion.css">
+    <script src="./assets/animation/animation.js"></script>
+
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Nova+Square&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Soundz</title>
+</head>
+<body>
+    <nav class="navigation">
+       <span class="logo"><i class="bx bxl-squarespace"></i>Soundz</span> 
+       <div class="navigation-tab">
+        <ul class="first">
+            <li>Home</li>
+            <li>Products</li>
+            <li>About</li>
+        </ul>
+        <ul class="second">
+           <li onclick="ShowSearch()"><i class="bx bx-search"></i></li>
+           <li><a href="./cart.html"><i class="bx bx-cart-alt"></i><span class="badge">0</span></a></li>
+           <li onclick="ShowMenu()"><i class="bx bx-menu-alt-left"></i></li>
+        </ul>
+       </div>
+    </nav>
+
+    <div class="landing" data-fade-up>
+            <div>
+                <h1>Experience Sound like Never Before</h1>
+                <h2>Explore our Collection of Premium of headphones, speakers and earbuds</h2>
+            </div>
+            <img src="./assets/img/Landing-img.png" alt="man">
+    </div>
+
+    <div class="why-buy" data-fade-up>
+        <li><i class="bx bx-award"></i><br><br>Premium quality</li>
+        <li><i class="bx bx-timer"></i><br><br>Fast delivery</li>
+        <li><i class="bx bx-check-shield"></i><br><br>Security</li>
+    </div>
+
+    <!--home page-caption-->
+        <div class="caption" data-fade-up>
+            <div>
+                <h1>Music is well said the speech of angels</h1>
+                <h3>Get 20% off on the best sound producing headphones and earbuds the industry has to offer</h3>
+                <button class="landing-button" onclick="BuyNowClick()">Buy now</button>
+            </div>
+            <img src="./assets/img/test.png" alt="man" class="landing-img">
+        </div>
+    </div>
+
+    <!--product-conatiner-->
+    <div class="Product-categories" id="captionPoint" data-fade-up>
+        <div class="content">
+            <span class="cat-box cat-box-active">All</span>
+            <span class="cat-box">Headphones</span>
+            <span class="cat-box">Earbuds</span>
+            <span class="cat-box">Speakers</span>
+            <span class="cat-box">JBL</span>
+            <span class="cat-box">Beats by Dre</span>
+            <span class="cat-box">Apple</span>
+            <span class="cat-box">Sony</span>
+            <span class="cat-box">Energy Sistem</span>
+        </div>
+    </div>
+    <span class="product-text" data-fade-up>Our Premium Collection!</span>
+    <div class="product-container" data-fade-up>
+        <div class="product">
+            <div class="image-container">
+                 <img src="" alt="product" class="product-image">
+                 <button class="product-option whitelist"><i class="bx bx-heart"></i></button>
+                 <button class="product-option cart"><i class="bx bx-cart-alt"></i></button>
+                 <button class="product-option view"><i class="bx bx-expand"></i></button>
+            </div>
+            <div class="detail">
+                <span class="name"></span>
+                <span class="description"></span>
+                <span class="rating">
+                    <i class="bx star bx-star"></i>
+                    <i class="bx star bx-star"></i>
+                    <i class="bx star bx-star"></i>
+                    <i class="bx star bx-star"></i>
+                    <i class="bx star bx-star"></i>
+                </span>
+                <span><i class="bx bx-dollar"></i><span class="price"></span></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="newsletter">
+        <h4>Join our newsletter</h4>
+        <form class="newsletter-form" action="">
+            <input type="email" class="email-input" placeholder="Enter email">
+            <button type="submit" class="newsletter-button">submit</button>
+        </form>
+    </div>
+
+    <!--search container-->
+    <div class="search-box">
+        <button class="close" onclick="CloseSearch()"><i class="bx bx-x"></i></button>
+        <input type="text" class="search-input" placeholder="Search">
+        <button class="search-button" onclick="searchShop()"><i class="bx bx-search"></i></button>
+    </div>
+
+    <!--menu-->
+    <div class="menu">
+        <button class="menu-close" onclick="CloseMenu()"><i class="bx bx-x"></i></button>
+        <a href="./index.html" class="sign-up">Sign up</a>
+        <ul class="menu-navigation">
+            <li><a href="./index.html">Home</a></li>
+            <li class="product-item"><span>Headphones</span> <img src="./assets/img/headphone.png" alt=""></li>
+            <li class="product-item"><span>Headsets</span> <img src="./assets/img/man-headset.png" alt=""></li>
+            <li class="product-item"><span>Earbuds</span> <img src="./assets/img/beats-earbud-2-blue-PhotoRoom.png-PhotoRoom.png" alt=""></li>
+            <li class="product-item"><span>Speakers</span> <img src="./assets/img/speaker.png" alt=""></li>
+            <li><a href="./index.html">About us</a></li>
+        </ul>
+    </div>
+
+    <footer class="footer">
+        <ul>
+         <li><i class="bx bxs-envelope"></i>&nbsp; shop@soundz.com</li>
+         <li><i class="bx bx-phone"></i>&nbsp; +1 23779281011</li>
+         <li><i class="bx bx-map"></i>&nbsp; New York, US</li>
+         <li>
+             <a href="http://www.facebook.com"><i class="bx bxl-facebook-square"></i></a>&nbsp;
+             <a href="http://www.twitter.com"><i class="bx bxl-twitter"></i></a>&nbsp;
+             <a href="http://www.instagram.com"><i class="bx bxl-instagram"></i></a>&nbsp;
+             <a href="http://www.linkedin.com"><i class="bx bxl-linkedin"></i></a>
+         </li>
+         <li>&copy;soundz.2023</li>
+        </ul> 
+ 
+        <ul>
+         <li><a href="#">Terms and services</a></li>
+         <li><a href="#">Frequently asked</a></li>
+         <li><a href="#">Talk to assistant</a></li>
+         <li><a href="#">Help</a></li>
+         <li>Made by EnowMyke-A</li>
+        </ul>
+     </footer>
+    
+</body>
+</html>

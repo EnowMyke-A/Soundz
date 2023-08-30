@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--main stylesheet-->
+    <link rel="stylesheet" href="./assets/stylesheet/main_style.css">
+    <!--box-icon-->
+    <link rel="stylesheet" href="./assets/box-icon/css/boxicons.min.css">
+    <!--box-icon script-->
+    <script src="./assets/box-icon/boxicon.min.js"></script>
+    <!--main script-->
+    <script src="./assets/script/main_script.js"></script>
+    <!--cart script-->
+    <script src="./assets/script/cart.js"></script>
+    <!--skeleton-load-->
+    <link rel="stylesheet" href="./assets/stylesheet/load.css">
+    
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Nova+Square&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Soundz</title>
+</head>
+<body>
+    <nav class="cart-navigation">
+     <button onclick="window.history.back()"><i class="bx bx-chevron-left"></i></button>
+     <span class="cart-title">Cart</span>
+     <button onclick="ClearCart();"><i class="bx bx-trash"></i></button>
+    </nav>
+
+    <div class="skeleton-container">
+        <div class="cart-summary">
+            <div class="cart-item">
+                <div class="skeleton skeleton-img"></div>
+                <div class="item-detail">
+                    <span class="name skeleton skeleton-text"></span>
+                    <span class="description skeleton skeleton-text"></span>
+                    <span class="price skeleton skeleton-text"></span>
+                    <div class="quantity-box skeleton skeleton-text-short">
+                        
+                    </div>
+                </div>
+                <span class="remove-item skeleton skeleton-small-icon"></span>
+            </div>
+    
+            <div class="cart-item">
+                <div class="skeleton skeleton-img"></div>
+                <div class="item-detail">
+                    <span class="name skeleton skeleton-text"></span>
+                    <span class="description skeleton skeleton-text"></span>
+                    <span class="price skeleton skeleton-text"></span>
+                    <div class="quantity-box skeleton skeleton-text-short"></div>
+                </div>
+                <span class="remove-item skeleton skeleton-small-icon"></span>
+            </div>
+    
+            <div class="cart-item">
+                <div class="skeleton skeleton-img"></div>
+                <div class="item-detail">
+                    <span class="name skeleton skeleton-text"></span>
+                    <span class="description skeleton skeleton-text"></span>
+                    <span class="price skeleton skeleton-text"></span>
+                    <div class="quantity-box skeleton skeleton-text-short"></div>
+                </div>
+                <span class="remove-item skeleton skeleton-small-icon"></span>
+            </div>
+        </div>
+    
+        <div class="coupon skeleton skeleton-input"></div>    
+        <div class="total skeleton skeleton-block"></div>
+    
+        <div class="delivery skeleton skeleton-text-short"></div>
+        <div class="delivery skeleton skeleton-text-long"></div>
+        <div class="delivery skeleton skeleton-text-long"></div>
+        <div class="delivery skeleton skeleton-text-long"></div>
+        <div class="delivery skeleton skeleton-text-long"></div>
+        <div class="delivery skeleton skeleton-text-long"></div>      
+        </div>
+    </div>
+
+<div class="cart-body hide-div">
+    <div class="cart-summary">
+        <div class="cart-item">
+            <img src="./assets/img/beat-solo-3-PhotoRoom.png-PhotoRoom.png" alt="earbud" class="cart-image">
+            <div class="item-detail">
+                <span class="name">Product name</span>
+                <span class="price-container"><i class="bx bx-dollar"></i><span class="price">321</span></span>
+                <div class="quantity-box">
+                    <span class="reduce"><i class="bx bxs-minus-circle"></i></span>
+                    <span class="cart-quantity">1</span>
+                    <span class="add"><i class="bx bxs-plus-circle"></i></span>
+                </div>
+            </div>
+            <button class="remove-item"><i class="bx bx-trash"></i></button>
+        </div>
+    </div>
+
+    <div class="coupon">
+        <input type="text" class="coupon-input" placeholder="Enter coupon code">
+        <button class="coupon-button" onclick="handleCoupon()" id="coupon-button">Apply coupon</button>
+    </div>
+
+    <div class="total">
+        <li><span>Subtotal</span><span><i class="bx bx-dollar"></i><span class="price" id="Subtotal"></span></span></li>
+        <li><span>Coupon Discount</span><span>-<i class="bx bx-dollar"></i><span class="price" id="coupon"></span></span></li>
+        <li><span>Shipping</span><span><i class="bx bx-dollar"></i><span class="price" id="shipping"></span></span></li>
+        <li><span>Total</span><span><i class="bx bx-dollar"></i><span class="price" id="total"></span></span></li>
+    </div>
+
+    <div class="delivery">
+            <h2 class="form-title">Delivery Details <hr></h2>
+            
+            <label for="name">Full Name*</label>
+            <input type="text" id="name" name="name" class="input-field" placeholder="Type here" required>
+            
+            <label for="address">Address*</label>
+            <input type="text" id="address" name="address" class="input-field" placeholder="Type here" required>
+            
+            <label for="city">City*</label>
+            <input type="text" id="city" name="city" class="input-field" placeholder="Type here" required>
+            
+            <label for="zip">Zip Code*</label>
+            <input type="number" id="zip" name="zip" class="input-field" placeholder="Type here" required>
+            
+            <label for="country">Country*</label>
+            <select id="country" name="country" class="input-field" required>
+              <option value="">Select Country</option>
+              <option value="US">United States</option>
+              <option value="CA">Canada</option>
+              <option value="UK">United Kingdom</option>
+              <!-- Add more country options as needed -->
+            </select>
+            
+            <label for="phone">Phone Number*</label>
+            <input type="tel" id="phone" name="phone" class="input-field" placeholder="Type here" required>
+    </div>
+
+    <div class="payment">
+        <h2 class="form-title">Payment Checkout <hr></h2>
+    <form>
+    <label>
+      <input type="radio" name="payment-method" value="cash-on-delivery" checked>
+      Cash on Delivery <i class="bx bx-money"></i>
+    </label>
+    <label>
+      <input type="radio" name="payment-method" value="paypal">
+      PayPal <i class="bx bxl-paypal"></i>
+    </label>
+    <label>
+      <input type="radio" name="payment-method" value="bank-card">
+      Credit or Debit Card <i class="bx bxs-credit-card"></i>
+    </label>
+    <div id="bank-card-details">
+      <label>
+        <input type="radio" name="bank-card-type" value="mastercard" checked>
+        <img src="./assets/img/Mastercard-logo.svg" alt="mastercard">
+      </label>
+      <label>
+        <input type="radio" name="bank-card-type" value="visa">
+        <img src="./assets/img/Visa_Inc._logo.svg" alt="visa">
+      </label>
+      <label>
+        <input type="radio" name="bank-card-type" value="visa">
+        <img src="./assets/img/Amazon_logo.svg" alt="visa">
+      </label>
+    </div>
+  </form>
+    </div>
+
+    <form class="card-info">
+        <label for="card-number">Card Number*</label>
+        <input type="text" id="card-number" name="card-number" placeholder="XXXX-XXXX-XXXX-XXXX" required>
+    
+        <label for="cardholder-name">Cardholder Name*</label>
+        <input type="text" id="cardholder-name" name="cardholder-name" placeholder="Enter cardholder name" required>
+    
+        <label for="expiry-date">Expiry Date*</label>
+        <input type="text" id="expiry-date" name="expiry-date" placeholder="MM / YY" required>
+    
+        <label for="cvv">CVV*</label>
+        <input type="text" id="cvv" name="cvv" placeholder="000" required>
+    </form>
+
+    <form class="paypal-info">
+        <label for="email">Email*</label>
+        <input type="email" id="email" class="input-field" name="email" placeholder="PayPal email" required>
+    
+        <label for="password">Password*</label>
+        <input type="password" id="password" name="password" class="input-field" placeholder="Password" required>
+    
+      </form>
+
+    <div class="proceed">
+        <div>
+            <span class="label">Total: </span>
+            <span class="total-price price"></span>
+        </div>
+        <button>Checkout</button>
+    </div>
+
+</div>
+
+<div class="No-item hide-div">
+    <h2>Oops!! Cart Empty</h2>
+   <img src="./assets/img/No-cart.svg" alt="Empty cart">
+   <span class="No-item-text">You haven't added any item to cart yet</span>
+   <button onclick="BackToShop()">Continue Shopping</button>
+</div>
+    
+</body>
+</html>

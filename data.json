@@ -1,0 +1,812 @@
+[
+  {
+    "id": 1,
+    "category": "Headphones",
+    "brand": "JBL",
+    "name": "JBL Wireless Headphones",
+    "price": 99.99,
+    "quantity": 50,
+    "colors": ["#425A80", " #ECECEC", "#DDD0D7", "#343435"],
+    "rating": 3.7,
+    "description":"JBL wireless headphones provide a wire-free audio experience with high-quality sound, comfort, and features like noise cancellation. Choose from in-ear or over-ear styles for personalized listening. Perfect for music, calls, and on-the-go entertainment.",
+    "totalRatings": {
+      "5": 250,
+      "4": 300,
+      "3": 100,
+      "2": 10,
+      "1": 5
+    },
+    "feedback": [
+      {
+        "image":"./assets/img/John_doe.jpg",
+        "user": "John Doe",
+        "rating": 5,
+        "timeRated": "2023-07-01T10:15:30Z",
+        "message": "Great sound quality and comfortable to wear."
+      },
+      {
+        "image":"./assets/img/Jane_smith.jpg",
+        "user": "Jane Smith",
+        "rating": 4,
+        "timeRated": "2023-06-25T18:45:00Z",
+        "message": "The battery life is impressive."
+      }
+    ],
+    "images": ["./assets/img/jbl-wireless-blue.png", "./assets/img/jbl-wireless-white.png", "./assets/img/jbl-wireless-pink.png", "./assets/img/jbl-wireless-black.png"]
+  },
+  {
+    "id": 2,
+    "category": "Headphones",
+    "brand": "Beats by Dre",
+    "name": "Beats Studio3 Wireless",
+    "price": 249.99,
+    "quantity": 39,
+    "colors": ["#2B2B2D", "#DDD4CF", "#5B4C49", "#F3F3F3", "#E23223"],
+    "rating": 4.5,
+    "description":"Enjoy premium sound and wireless convenience with Beats Studio3 Wireless headphones. With up to 22 hours of battery life and advanced noise cancellation, experience powerful, balanced sound for an exceptional listening experience. Elevate your music with Beats Studio3.",
+    "totalRatings": {
+      "5": 180,
+      "4": 90,
+      "3": 40,
+      "2": 5,
+      "1": 2
+    },
+    "feedback": [
+      {
+        "image":"./assets/img/Sara_jones.jpg",
+        "user": "Sarah Johnson",
+        "rating": 5,
+        "timeRated": "2023-07-02T14:30:00Z",
+        "message": "Awesome sound quality and noise cancellation."
+      },
+      {
+        "image":"./assets/img/Mark_wilson.jpg",
+        "user": "Mark Wilson",
+        "rating": 4,
+        "timeRated": "2023-06-28T09:10:45Z",
+        "message": "The headphones feel premium and well-built."
+      }
+    ],
+    "images": ["./assets/img/beats-studio3-black.png", "./assets/img/beats-studio3-gray.png", "./assets/img/beats-studio3-brown.png", "./assets/img/beats-studio3-white.png"]
+  },
+  {
+    "id": 3,
+    "category": "Earbuds",
+    "brand": "Energy Sistem",
+    "name": "Energy Sistem True Wireless Earbuds",
+    "price": 79.99,
+    "quantity": 51,
+    "colors": ["#F3F3F3", "#2B2B2D", "#4D6AA4"],
+    "rating": 4.2,
+    "description":"Experience true wireless freedom with Energy Sistem True Wireless Earbuds. With Bluetooth connectivity and a comfortable fit, enjoy clear sound and convenience on the go. Elevate your music with Energy Sistem Earbuds.",
+    "totalRatings": {
+      "5": 120,
+      "4": 60,
+      "3": 30,
+      "2": 8,
+      "1": 3
+    },
+    "feedback": [
+      {
+        "image":"./assets/img/Amy_willams.jpg",
+        "user": "Amy Williams",
+        "rating": 4,
+        "timeRated": "2023-07-05T11:20:15Z",
+        "message": "Compact and lightweight, perfect for workouts."
+      },
+      {
+        "image":"./assets/img/David_lee.jpg",
+        "user": "David Lee",
+        "rating": 3,
+        "timeRated": "2023-06-30T16:55:30Z",
+        "message": "The battery life could be better."
+      }
+    ],
+    "images": ["./assets/img/True-Wireless-white.png", "./assets/img/True-Wireless-blue.png", "./assets/img/True-Wireless-1.png", "./assets/img/True-Wireless-2.png"]
+  },
+  {
+    "id": 4,
+    "category": "Earbuds",
+    "brand": "Apple",
+    "name": "Apple AirPods earbuds",
+    "price": 179.99,
+    "quantity": 43,
+    "colors": ["#EFF0F5"],
+    "rating": 4.8,
+    "description":"Enjoy the iconic audio quality and seamless connectivity of Apple AirPods earbuds. With instant pairing, hands-free Siri access, and a sleek design, these wireless earbuds offer a convenient and immersive listening experience. Elevate your audio with Apple AirPods.",
+    "totalRatings": {
+      "5": 400,
+      "4": 150,
+      "3": 30,
+      "2": 2,
+      "1": 1
+    },
+    "feedback": [
+      {
+        "image":"./assets/img/Micheal_brown.jpg",
+        "user": "Michael Brown",
+        "rating": 5,
+        "timeRated": "2023-07-03T08:45:00Z",
+        "message": "Great sound quality and noise cancellation."
+      },
+      {
+        "image":"./assets/img/Emily_jones.jpg",
+        "user": "Emily Jones",
+        "rating": 4,
+        "timeRated": "2023-06-29T17:20:30Z",
+"message": "The convenience of wireless charging is a game-changer."
+}
+],
+"images": ["./assets/img/airpod-earbud-1.png", "./assets/img/airpod-earbud-2.png", "./assets/img/airpod-earbud-3.png", "./assets/img/airpod-earbud-4.png"]
+},
+{
+"id": 5,
+"category": "Earbuds",
+"brand": "Beats by Dre",
+"name": "Beats Studio Buds True Wireless",
+"price": 89.99,
+"quantity": 27,
+"colors": ["#E23223", "#E6E7EB", "#3D54B1", "#000000"],
+"rating": 4.6,
+"description":"Elevate your music experience with Beats Studio Buds True Wireless earbuds. Enjoy powerful, balanced sound with deep bass and crisp highs. With ANC and a secure fit, immerse yourself in your music. These sleek earbuds offer up to 8 hours of battery life and are sweat and water-resistant for active lifestyles.",
+"totalRatings": {
+"5": 300,
+"4": 120,
+"3": 40,
+"2": 10,
+"1": 5
+},
+"feedback": [
+{
+"image":"./assets/img/Chris-taylor.jpg",
+"user": "Chris Taylor",
+"rating": 5,
+"timeRated": "2023-07-04T13:10:15Z",
+"message": "Impressive sound quality and portability."
+},
+{
+"image":"./assets/img/Stephanie_clark.jpg",
+"user": "Stephanie Clark",
+"rating": 4,
+"timeRated": "2023-06-27T20:30:45Z",
+"message": "The battery life lasts for hours."
+}
+],
+"images": ["./assets/img/beats-earbud-1-red-PhotoRoom.png-PhotoRoom.png", "./assets/img/beats-earbud-1-white-PhotoRoom.png-PhotoRoom.png", "./assets/img/beats-earbud-1-blue-PhotoRoom.png-PhotoRoom.png", "./assets/img/beats-earbud-1-black-PhotoRoom.png-PhotoRoom.png"]
+},
+
+  {
+    "id": 6,
+    "category": "Headphones",
+    "brand": "Energy Sistem",
+    "name": "Energy Sistem Wireless Style 3",
+    "price": 299.99,
+    "quantity": 42,
+    "colors": ["#C8B2F0", "#BEBEBE", "#637093"],
+    "rating": 4.9,
+    "description":"Experience wireless freedom and style with Energy Sistem Wireless Style 3 headphones. These sleek and trendy headphones offer high-quality audio, a comfortable fit, and a wireless design for an immersive and enjoyable listening experience. Elevate your music experience with the stylish Energy Sistem Wireless Style 3 headphones.",
+    "totalRatings": {
+      "5": 500,
+      "4": 200,
+      "3": 30,
+      "2": 5,
+      "1": 1
+    },
+    "feedback": [
+      {
+        "image":"./assets/img/Jennifer_smith.jpg",
+        "user": "Jennifer Smith",
+        "rating": 5,
+        "timeRated": "2023-07-05T09:30:00Z",
+        "message": "Amazing 360-degree sound and long battery life."
+      },
+      {
+        "image":"./assets/img/John_doe.jpg",
+        "user": "Daniel Johnson",
+        "rating": 3,
+        "timeRated": "2023-06-30T15:45:30Z",
+        "message": "Portable and durable design."
+      }
+    ],
+    "images": ["./assets/img/Enery-Sistem-purple-PhotoRoom.png-PhotoRoom.png", "./assets/img/Enery-Sistem-blue-PhotoRoom.png-PhotoRoom.png", "./assets/img/Enery-Sistem-white-PhotoRoom.png-PhotoRoom.png", "./assets/img/energy-sistem-purple-PhotoRoom.png-PhotoRoom.png"]
+  },
+  {
+    "id": 7,
+    "category": "Headphones",
+    "brand": "Apple",
+    "name": "Apple Airpod Max Headphones",
+    "price": 319.99,
+    "quantity": 49,
+    "colors": ["#EEEEEE", "#E4544C","#2B2B2D", "#4D6AA4"],
+    "rating": 4.7,
+    "description":"Experience audio excellence with Apple AirPods Max Headphones. These premium over-ear headphones deliver immersive sound, active noise cancellation, and seamless connectivity with Apple devices. With custom drivers and a luxurious design, they redefine wireless audio.",
+    "totalRatings": {
+      "5": 400,
+      "4": 150,
+      "3": 40,
+      "2": 10,
+      "1": 2
+    },
+    "feedback": [
+      {
+        "image":"./assets/img/Alex_miller.jpg",
+        "user": "Alex Miller",
+        "rating": 5,
+        "timeRated": "2023-07-03T12:20:00Z",
+        "message": "Impressive sound quality and the waterproof feature is a plus."
+      },
+      {
+        "image":"./assets/img/Jessica_brown.jpg",
+        "user": "Jessica Brown",
+        "rating": 5,
+        "timeRated": "2023-06-29T17:20:30Z",
+        "message": "The convenience of wireless charging is a game-changer."
+      }
+    ],
+    "images": ["./assets/img/airpod-max-silver-PhotoRoom.png-PhotoRoom.png", "./assets/img/airpod-max-pink-PhotoRoom.png-PhotoRoom.png", "./assets/img/airpod-max-spacegrey-PhotoRoom.png-PhotoRoom.png", "./assets/img/airpod-max-blue-PhotoRoom.png-PhotoRoom.png"]
+  },
+{
+    "id": 8,
+    "category": "Speakers",
+    "brand": "Energy Sistem",
+    "name": "Energy Sistem Urban Box portable",
+    "price": 129.99,
+    "quantity": 51,
+    "colors": ["#000000", "#EECDE2", "#FFFFFF"],
+    "rating": 4.2,
+    "description":"Experience powerful and portable sound with the Energy Sistem Urban Box portable speaker. With Bluetooth connectivity and a built-in rechargeable battery, it's perfect for on-the-go music. Elevate your audio experience with the compact and impressive Energy Sistem Urban Box speaker.",
+    "totalRatings": {
+      "5": 120,
+      "4": 60,
+      "3": 30,
+      "2": 8,
+      "1": 3
+    },
+    "feedback": [
+      {
+        "image":"./assets/img/Amy_willams.jpg",
+        "user": "Amy Williams",
+        "rating": 4,
+        "timeRated": "2023-07-05T11:20:15Z",
+        "message": "Compact and lightweight, perfect for workouts."
+      },
+      {
+        "image":"./assets/img/David_lee.jpg",
+        "user": "David Lee",
+        "rating": 3,
+        "timeRated": "2023-06-30T16:55:30Z",
+        "message": "The battery life could be better."
+      }
+    ],
+    "images": ["./assets/img/Energy-sistem-urban-box-1-PhotoRoom.png-PhotoRoom.png", "./assets/img/Energy-sistem-urban-box-2-PhotoRoom.png-PhotoRoom.png", "./assets/img/Energy-sistem-urban-box-1-PhotoRoom.png-PhotoRoom.png", "./assets/img/Energy-sistem-urban-box-2-PhotoRoom.png-PhotoRoom.png"]
+  },
+  {
+    "id": 9,
+    "category": "Earbuds",
+    "brand": "Apple",
+    "name": "Apple AirPods Pro Earbuds",
+    "price": 199.99,
+    "quantity": 43,
+    "colors": ["#EFF0F5"],
+    "rating": 4.8,
+    "description":"Experience the ultimate in wireless earbuds with Apple AirPods Pro. Enjoy immersive sound with active noise cancellation and a comfortable, secure fit. With Transparency mode and hands-free Siri access, they offer convenience and awareness. These water and sweat-resistant earbuds elevate your audio experience.",
+    "totalRatings": {
+      "5": 400,
+      "4": 150,
+      "3": 30,
+      "2": 2,
+      "1": 1
+    },
+    "feedback": [
+      {
+        "image":"./assets/img/Micheal_brown.jpg",
+        "user": "Michael Brown",
+        "rating": 5,
+        "timeRated": "2023-07-03T08:45:00Z",
+        "message": "Great sound quality and noise cancellation."
+      },
+      {
+        "image":"./assets/img/Emily_jones.jpg",
+        "user": "Emily Jones",
+        "rating": 4,
+        "timeRated": "2023-06-29T17:20:30Z",
+"message": "The convenience of wireless charging is a game-changer."
+}
+],
+"images": ["./assets/img/Airpods-pro-1-PhotoRoom.png-PhotoRoom.png", "./assets/img/Airpods-pro-2-PhotoRoom.png-PhotoRoom.png", "./assets/img/Airpods-pro-3-PhotoRoom.png-PhotoRoom.png", "./assets/img/Airpods-pro-4-PhotoRoom.png-PhotoRoom.png"]
+},
+{
+"id": 10,
+"category": "Speakers",
+"brand": "Sony",
+"name": "Sony SRX-XB13 Speaker",
+"price": 149.99,
+"quantity": 27,
+"colors": ["#99917C", "#FF765A", "#2A2B30", "#66B1AA"],
+"rating": 4.6,
+"description":"Enhance your music on the move with the Sony SRX-XB13 Speaker. It delivers powerful sound with Extra Bass, offers Bluetooth connectivity, and is rugged and waterproof for outdoor use. Enjoy music for hours with its long battery life. Take your tunes anywhere with this compact and impressive speaker.",
+"totalRatings": {
+"5": 300,
+"4": 120,
+"3": 40,
+"2": 10,
+"1": 5
+},
+"feedback": [
+{
+  "image":"./assets/img/John_doe.jpg",
+"user": "Chris Taylor",
+"rating": 5,
+"timeRated": "2023-07-04T13:10:15Z",
+"message": "Impressive sound quality and portability."
+},
+{
+  "image":"./assets/img/Stephanie_clark.jpg",
+"user": "Stephanie Clark",
+"rating": 5,
+"timeRated": "2023-06-27T20:30:45Z",
+"message": "The battery life lasts for hours."
+}
+],
+"images": ["./assets/img/Sony-srx-xb13-grey-PhotoRoom.png-PhotoRoom.png", "./assets/img/Sony-srx-xb13-coral-PhotoRoom.png-PhotoRoom.png", "./assets/img/Sony-srx-xb13-black-PhotoRoom.png-PhotoRoom.png", "./assets/img/Sony-srx-xb13-green-PhotoRoom.png-PhotoRoom.png"]
+},
+
+  {
+    "id": 11,
+    "category": "Speakers",
+    "brand": "Beats by Dre",
+    "name": "Beats Pill 2.0 Portable Speaker",
+    "price": 299.99,
+    "quantity": 42,
+    "colors": ["#EFF0F5", "#2A2B30", "#E23223"],
+    "rating": 4.9,
+    "description":"Experience powerful sound on the go with the Beats Pill 2.0 Portable Speaker. With Bluetooth connectivity and a rechargeable battery, you can enjoy your favorite music wirelessly for hours. Its compact design and built-in microphone make it perfect for life on the move. Elevate your music experience with the Beats Pill 2.0 Speaker.",
+    "totalRatings": {
+      "5": 500,
+      "4": 200,
+      "3": 30,
+      "2": 5,
+      "1": 1
+    },
+    "feedback": [
+      {
+        "image":"./assets/img/Jennifer_smith.jpg",
+        "user": "Jennifer Smith",
+        "rating": 5,
+        "timeRated": "2023-07-05T09:30:00Z",
+        "message": "Amazing 360-degree sound and long battery life."
+      },
+      {
+        "image":"./assets/img/Mark_wilson.jpg",
+        "user": "DanielJohnson",
+        "rating": 4,
+        "timeRated": "2023-06-30T15:45:30Z",
+        "message": "Portable and durable design."
+      }
+    ],
+    "images": ["./assets/img/Beats-pill-2-white-PhotoRoom.png-PhotoRoom.png", "./assets/img/Beats-pill-2-white-PhotoRoom.png-PhotoRoom.png", "./assets/img/Beats-pill-2-white-PhotoRoom.png-PhotoRoom.png", "./assets/img/Beats-pill-2-white-PhotoRoom.png-PhotoRoom.png"]
+  },
+  {
+    "id": 12,
+    "category": "Speakers",
+    "brand": "JBL",
+    "name": "JBL Flip 5 Portable Speaker",
+    "price": 119.99,
+    "quantity": 49,
+    "colors": ["Black", "#425A80", "Red", "Pink", "White"],
+    "rating": 4.7,
+    "description":"Experience powerful sound anywhere with the JBL Flip 5 Portable Speaker. With Bluetooth connectivity and a waterproof design, it's perfect for outdoor adventures. Enjoy up to 12 hours of playtime with the built-in rechargeable battery. Elevate your music experience with the JBL Flip 5 Speaker",
+    "totalRatings": {
+      "5": 400,
+      "4": 150,
+      "3": 40,
+      "2": 10,
+      "1": 2
+    },
+    "feedback": [
+      {
+        "image":"./assets/img/Alex_miller.jpg",
+        "user": "Alex Miller",
+        "rating": 5,
+        "timeRated": "2023-07-03T12:20:00Z",
+        "message": "Impressive sound quality and the waterproof feature is a plus."
+      },
+      {
+        "image":"./assets/img/Jessica_brown.jpg",
+        "user": "Jessica Brown",
+        "rating": 4,
+        "timeRated": "2023-06-29T17:20:30Z",
+        "message": "The convenience of wireless charging is a game-changer."
+      }
+    ],
+    "images": ["./assets/img/jbl-Flip5-portable-speaker-red-PhotoRoom.png-PhotoRoom.png", "./assets/img/jbl-Flip5-portable-speaker-pink-PhotoRoom.png-PhotoRoom.png", "./assets/img/jbl-Flip5-portable-speaker-white-PhotoRoom.png-PhotoRoom.png", "./assets/img/jbl-Flip5-portable-black-speaker-PhotoRoom.png-PhotoRoom.png"]
+  },
+  {
+  "id": 13,
+    "category": "Headphones",
+    "brand": "Energy Sistem",
+    "name": "Energy Sistem Auricular Bluetooth",
+    "price": 149.99,
+    "colors": ["Black", "White"],
+    "rating": 4.5,
+    "totalRatings": {
+      "5": 350,
+      "4": 120,
+      "3": 25,
+      "2": 8,
+      "1": 3
+    },
+    "quantity": 50,
+    "feedback": [
+      {
+        "image":"./assets/img/Alex_miller.jpg",
+        "user": "Robert Davis",
+        "rating": 5,
+        "timeRated": "2023-07-02T16:40:15Z",
+        "message": "Great audio quality and comfortable for long gaming sessions."
+      },
+      {
+        "image":"./assets/img/Amy_willams.jpg",
+        "user": "MichelleWilson",
+        "rating": 4,
+        "timeRated": "2023-06-28T11:15:00Z",
+        "message": "The headset provides excellent noise isolation."
+      }
+    ],
+    "images": ["./assets/img/indigo-energy-sis-auricular-bt-PhotoRoom.png-PhotoRoom.png", "./assets/img/Enery-sistem-auricular-bluetooth-white-PhotoRoom.png-PhotoRoom.png", "./assets/img/Enery-sistem-auricular-bluetooth-indigo-PhotoRoom.png-PhotoRoom.png", "./assets/img/energy-sistem-black-auricular-PhotoRoom.png-PhotoRoom.png"]
+  },
+  {
+    "id": 14,
+    "category": "Earbuds",
+    "brand": "JBL",
+    "name": "JBL Wave Beam Earbuds",
+    "price": 99.99,
+    "colors": ["Black", "Grey"],
+    "rating": 4.8,
+    "totalRatings": {
+      "5": 250,
+      "4": 100,
+      "3": 20,
+      "2": 5,
+      "1": 2
+    },
+    "quantity": 25,
+    "feedback": [
+      {
+        "user": "Sophia Jones",
+        "rating": 5,
+        "timeRated": "2023-07-04T14:25:30Z",
+        "message": "The sound quality is amazing, and it looks elegant."
+      },
+      {
+        "user": "William Brown",
+        "rating": 4,
+        "timeRated": "2023-06-27T19:50:00Z",
+        "message": "The battery life is impressive for its size."
+      }
+    ],
+    "images": ["./assets/img/jbl-earbuds-wave-beam-black-PhotoRoom.png-PhotoRoom.png", "./assets/img/jbl-earbuds-wave-beam-blue-PhotoRoom.png-PhotoRoom.png", "./assets/img/jbl-earbuds-wave-beam-biege-PhotoRoom.png-PhotoRoom.png", "./assets/img/jbl-earbuds-wave-beam-white-PhotoRoom.png-PhotoRoom.png"]
+  },
+  {
+    "id": 15,
+    "category": "Headphones",
+    "brand": "Beats by Dre",
+    "name": "Beats Solo 3 Wireless",
+    "price": 249.99,
+    "colors": ["Black", "White"],
+    "rating": 4.6,
+    "totalRatings": {
+      "5": 200,
+      "4": 80,
+      "3": 30,
+      "2": 6,
+      "1": 1
+    },
+    "quantity": 100,
+    "feedback": [
+      {
+        "user": "Olivia Taylor",
+        "rating": 5,
+        "timeRated": "2023-07-03T11:10:45Z",
+        "message": "Exceptional audio quality and comfortable fit."
+      },
+      {
+        "user": "Noah Wilson",
+        "rating": 4,
+        "timeRated": "2023-06-29T16:30:15Z",
+        "message": "The battery life is good, and the charging case is convenient."
+      }
+    ],
+    "images": ["./assets/img/beat-solo-3-PhotoRoom.png-PhotoRoom.png", "./assets/img/beats-solo-3-black-PhotoRoom.png-PhotoRoom.png", "./assets/img/beats-solo3-pink-PhotoRoom.png-PhotoRoom.png", "./assets/img/b_headset.png"]
+  },
+
+  {
+    "id": 16,
+    "category": "Headsets",
+    "brand": "SteelSeries",
+    "name": "SteelSeries Arctis 7 Wireless Gaming Headset",
+    "price": 149.99,
+    "colors": ["Black", "White"],
+    "rating": 4.5,
+    "totalRatings": {
+      "5": 350,
+      "4": 120,
+      "3": 25,
+      "2": 8,
+      "1": 3
+    },
+    "quantity": 50,
+    "feedback": [
+      {
+        "user": "Robert Davis",
+        "rating": 5,
+        "timeRated": "2023-07-02T16:40:15Z",
+        "message": "Great audio quality and comfortable for long gaming sessions."
+      },
+      {
+        "user": "Michelle Wilson",
+        "rating": 4,
+        "timeRated": "2023-06-28T11:15:00Z",
+        "message": "The headset provides excellent noise isolation."
+      }
+    ],
+    "images": ["steelseries_headset_1.jpg", "steelseries_headset_2.jpg", "steelseries_headset_3.jpg", "steelseries_headset_4.jpg"]
+  },
+  {
+    "id": 17,
+    "category": "Speakers",
+    "brand": "Harman Kardon",
+    "name": "Harman Kardon Onyx Studio 6 Wireless Speaker",
+    "price": 199.99,
+    "colors": ["Black", "Grey"],
+    "rating": 4.8,
+    "totalRatings": {
+      "5": 250,
+      "4": 100,
+      "3": 20,
+      "2": 5,
+      "1": 2
+    },
+    "quantity": 25,
+    "feedback": [
+      {
+        "user": "Sophia Jones",
+        "rating": 5,
+        "timeRated": "2023-07-04T14:25:30Z",
+        "message": "The sound quality is amazing, and it looks elegant."
+      },
+      {
+        "user": "WilliamBrown",
+        "rating": 4,
+        "timeRated": "2023-06-27T19:50:00Z",
+        "message": "The battery life is impressive for its size."
+      }
+    ],
+    "images": ["harman_kardon_speaker_1.jpg", "harman_kardon_speaker_2.jpg", "harman_kardon_speaker_3.jpg", "harman_kardon_speaker_4.jpg"]
+  },
+  {
+    "id": 18,
+    "category": "Earbuds",
+    "brand": "Sennheiser",
+    "name": "Sennheiser Momentum True Wireless Earbuds",
+    "price": 249.99,
+    "colors": ["Black", "White"],
+    "rating": 4.6,
+    "totalRatings": {
+      "5": 200,
+      "4": 80,
+      "3": 30,
+      "2": 6,
+      "1": 1
+    },
+    "quantity": 100,
+    "feedback": [
+      {
+        "user": "Olivia Taylor",
+        "rating": 5,
+        "timeRated": "2023-07-03T11:10:45Z",
+        "message": "Exceptional audio quality and comfortable fit."
+      },
+      {
+        "user": "Noah Wilson",
+        "rating": 4,
+        "timeRated": "2023-06-29T16:30:15Z",
+        "message": "The battery life is good, and the charging case is convenient."
+      }
+    ],
+    "images": ["sennheiser_earbuds_1.jpg", "sennheiser_earbuds_2.jpg", "sennheiser_earbuds_3.jpg", "sennheiser_earbuds_4.jpg"]
+  },
+  {
+    "id": 19,
+    "category": "Headsets",
+    "brand": "SteelSeries",
+    "name": "SteelSeries Arctis 7 Wireless Gaming Headset",
+    "price": 149.99,
+    "colors": ["Black", "White"],
+    "rating": 4.5,
+    "totalRatings": {
+      "5": 350,
+      "4": 120,
+      "3": 25,
+      "2": 8,
+      "1": 3
+    },
+    "quantity": 50,
+    "feedback": [
+      {
+        "user": "Robert Davis",
+        "rating": 5,
+        "timeRated": "2023-07-02T16:40:15Z",
+        "message": "Great audio quality and comfortable for long gaming sessions."
+      },
+      {
+        "user": "MichelleWilson",
+        "rating": 4,
+        "timeRated": "2023-06-28T11:15:00Z",
+        "message": "The headset provides excellent noise isolation."
+      }
+    ],
+    "images": ["steelseries_headset_1.jpg", "steelseries_headset_2.jpg", "steelseries_headset_3.jpg", "steelseries_headset_4.jpg"]
+  },
+  {
+    "id": 20,
+    "category": "Speakers",
+    "brand": "Harman Kardon",
+    "name": "Harman Kardon Onyx Studio 6 Wireless Speaker",
+    "price": 199.99,
+    "colors": ["Black", "Grey"],
+    "rating": 4.8,
+    "totalRatings": {
+      "5": 250,
+      "4": 100,
+      "3": 20,
+      "2": 5,
+      "1": 2
+    },
+    "quantity": 25,
+    "feedback": [
+      {
+        "user": "Sophia Jones",
+        "rating": 5,
+        "timeRated": "2023-07-04T14:25:30Z",
+        "message": "The sound quality is amazing, and it looks elegant."
+      },
+      {
+        "user": "WilliamBrown",
+        "rating": 4,
+        "timeRated": "2023-06-27T19:50:00Z",
+        "message": "The battery life is impressive for its size."
+      }
+    ],
+    "images": ["harman_kardon_speaker_1.jpg", "harman_kardon_speaker_2.jpg", "harman_kardon_speaker_3.jpg", "harman_kardon_speaker_4.jpg"]
+  },
+  {
+    "id": 21,
+    "category": "Earbuds",
+    "brand": "Sennheiser",
+    "name": "Sennheiser Momentum True Wireless Earbuds",
+    "price": 249.99,
+    "colors": ["Black", "White"],
+    "rating": 4.6,
+    "totalRatings": {
+      "5": 200,
+      "4": 80,
+      "3": 30,
+      "2": 6,
+      "1": 1
+    },
+    "quantity": 100,
+    "feedback": [
+      {
+        "user": "Olivia Taylor",
+        "rating": 5,
+        "timeRated": "2023-07-03T11:10:45Z",
+        "message": "Exceptional audio quality and comfortable fit."
+      },
+      {
+        "user": "NoahWilson",
+        "rating": 4,
+        "timeRated": "2023-06-29T16:30:15Z",
+        "message": "The battery life is good, and the charging case is convenient."
+      }
+    ],
+    "images": ["sennheiser_earbuds_1.jpg", "sennheiser_earbuds_2.jpg", "sennheiser_earbuds_3.jpg", "sennheiser_earbuds_4.jpg"]
+  },
+  {
+    "id": 22,
+    "category": "Headsets",
+    "brand": "SteelSeries",
+    "name": "SteelSeries Arctis 7 Wireless Gaming Headset",
+    "price": 149.99,
+    "colors": ["Black", "White"],
+    "rating": 4.5,
+    "totalRatings": {
+      "5": 350,
+      "4": 120,
+      "3": 25,
+      "2": 8,
+      "1": 3
+    },
+    "quantity": 50,
+    "feedback": [
+      {
+        "user": "Robert Davis",
+        "rating": 5,
+        "timeRated": "2023-07-02T16:40:15Z",
+        "message": "Great audio quality and comfortable for long gaming sessions."
+      },
+      {
+        "user": "Michelle Wilson",
+        "rating": 4,
+        "timeRated": "2023-06-28T11:15:00Z",
+        "message": "The headset provides excellent noise isolation."
+      }
+    ],
+    "images": ["steelseries_headset_1.jpg", "steelseries_headset_2.jpg", "steelseries_headset_3.jpg", "steelseries_headset_4.jpg"]
+  },
+  {
+    "id": 23,
+    "category": "Speakers",
+    "brand": "Harman Kardon",
+    "name": "Harman Kardon Onyx Studio 6 Wireless Speaker",
+    "price": 199.99,
+    "colors": ["Black", "Grey"],
+    "rating": 4.8,
+    "totalRatings": {
+      "5": 250,
+      "4": 100,
+      "3": 20,
+      "2": 5,
+      "1": 2
+    },
+    "quantity": 25,
+    "feedback": [
+      {
+        "user": "Sophia Jones",
+        "rating": 5,
+        "timeRated": "2023-07-04T14:25:30Z",
+        "message": "The sound quality is amazing, and it looks elegant."
+      },
+      {
+        "user": "William Brown",
+        "rating": 4,
+        "timeRated": "2023-06-27T19:50:00Z",
+        "message": "The battery life is impressive for its size."
+      }
+    ],
+    "images": ["harman_kardon_speaker_1.jpg", "harman_kardon_speaker_2.jpg", "harman_kardon_speaker_3.jpg", "harman_kardon_speaker_4.jpg"]
+  },
+  {
+    "id": 24,
+    "category": "Earbuds",
+    "brand": "Sennheiser",
+    "name": "Sennheiser Momentum True Wireless Earbuds",
+    "price": 249.99,
+    "colors": ["Black", "White"],
+    "rating": 4.6,
+    "totalRatings": {
+      "5": 200,
+      "4": 80,
+      "3": 30,
+      "2": 6,
+      "1": 1
+    },
+    "quantity": 100,
+    "feedback": [
+      {
+        "user": "Olivia Taylor",
+        "rating": 5,
+        "timeRated": "2023-07-03T11:10:45Z",
+        "message": "Exceptional audio quality and comfortable fit."
+      },
+      {
+        "user": "Noah Wilson",
+        "rating": 4,
+        "timeRated": "2023-06-29T16:30:15Z",
+        "message": "The battery life is good, and the charging case is convenient."
+      }
+    ],
+    "images": ["sennheiser_earbuds_1.jpg", "sennheiser_earbuds_2.jpg", "sennheiser_earbuds_3.jpg", "sennheiser_earbuds_4.jpg"]
+  }
+  
+]
